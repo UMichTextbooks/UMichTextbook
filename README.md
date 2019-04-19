@@ -1,1 +1,1 @@
-# UMichTextbooks
+# UMichTextbook
