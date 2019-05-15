@@ -6,7 +6,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Lato', 'Helvetica Nue', Helvetica, Arial, sans-serif;
+    color: #606c71
+}
 
+a:link {
+    color: #1e6bb8;
+}
+a:visited {
+    color: #1e6bb8;
 }
 
 .last-edited {
@@ -14,16 +21,41 @@ body {
     color: #606c71;
 }
 
-.wassup {
+.hello {
     line-height: 1.5; 
-    color: #black;
+    color: #606c71;
 }
 
-#wassup {
+#hello {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: normal;
+    font-weight: bold;
     color: #f8bdd3;
+}
+
+#jump-to-subject {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #f8bdd3;
+}
+
+#the-links {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #f8bdd3;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #f8bdd3
 }
 
 .page-header {
@@ -34,16 +66,17 @@ body {
     padding: 3rem 4rem;
     font-size: 25px;
 }
-  @media screen and (max-width: 42em) {
+
+@media screen and (max-width: 42em) {
     .page-header {
-    padding: 1rem 1rem;
-    color: #fff;
-    text-align: center;
-    background-image: linear-gradient(133deg,#ffc426,#f8bdd3);
+        padding: 1rem 1rem;
+        color: #fff;
+        text-align: center;
+        background-image: linear-gradient(133deg,#ffc426,#f8bdd3);
     }
 }
     
-  @media screen and (max-width: 64em) and (min-width: 42em) {
+@media screen and (max-width: 64em) and (min-width: 42em) {
     .page-header {
         padding: 3rem 4rem;
         color: #fff;
@@ -54,3 +87,24 @@ body {
     }
   }
 
+@media screen and (max-width: 42em) {
+    .main-content{
+        padding: 2rem 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 64em) and (min-width: 42em) {
+    .main-content {
+        padding: 2rem 4rem;
+        padding-top: 1rem;
+        padding-right: 4rem;
+        padding-bottom: 2rem;
+        padding-left: 4rem;
+        font-size: 1.1rem;
+    }
+}
